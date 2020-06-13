@@ -14,7 +14,6 @@
 
 <p><a href="www.baidu.com">这是一个链接</a>&lt;<a href="http://www.baidu.com&gt;" target="_blank" rel="noopener">www.baidu.com&gt;</a></p>
 <p><a href="www.baidu.com">Baidu</a></p>
-<p>!(C:\Users\LXG\Pictures\over.jpg)</p>
 <table>
 <thead>
 <tr>
@@ -45,17 +44,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/2020/06/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>第一章 构造系统的起源</p>
-<hr>
-<p>第二章 构造系统的发展</p>
-<hr>
-<p>第三章 构造系统的终结</p>
-<hr>
 ]]></content>
   </entry>
 </search>
