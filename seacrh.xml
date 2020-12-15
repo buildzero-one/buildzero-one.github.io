@@ -11,8 +11,7 @@
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">二级标题</span><br><span class="line">------------</span><br></pre></td></tr></table></figure>
 <h3 id="2-使用-号标记"><a href="#2-使用-号标记" class="headerlink" title="2.使用#号标记"></a>2.使用#号标记</h3><p>使用#号可表示1-6级标题，一级标题对应一个#，二级标题对应两个#，以此类推</p>
 <h2 id="Markdown段落"><a href="#Markdown段落" class="headerlink" title="Markdown段落"></a>Markdown段落</h2><p>  Markdown段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。<br>当然也可以在段落后面使用一个空行来表示重新开始一个段落。</p>
-<p>###字体</p>
-<p>Markdown可以使用以下：</p>
+<h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><p>Markdown可以使用以下：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*斜体文本*</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">__粗体文本__</span></span><br><span class="line"><span class="strong">***粗斜体文本**</span>*</span><br><span class="line">---粗斜体文本---</span><br></pre></td></tr></table></figure>
 
 <h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>  你可以在一行中使用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西，但可以插入空格<br>显示如下：</p>
@@ -92,8 +91,9 @@
 
 <p><code>printf()</code></p>
 <h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><p>代码区块使用4个空格或一个制表符，或者前后各三个反引号（前三个反引号后要指定语言，也可以不指定）</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">​<span class="code">```</span>java</span><br><span class="line">public static void main(String[] args)&#123;</span><br><span class="line"></span><br><span class="line">   System.out.println("HelloWorld!");</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">​</span><br></pre></td></tr></table></figure>
-<figure class="highlight arduino"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">```java</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(<span class="keyword">String</span>[] args)</span></span>&#123;</span><br><span class="line">    </span><br><span class="line">    System.out.<span class="built_in">println</span>(<span class="string">"HelloWorld!"</span>);</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">public static void main(String[] args)&#123;</span><br><span class="line"></span><br><span class="line">   System.out.println("HelloWorld!");</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">    </span><br><span class="line">    System.out.println(<span class="string">"HelloWorld!"</span>);</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -110,8 +110,7 @@
 <p><img src="%5Cimages%5Cavatar.jpg" alt="alt 头像"></p>
 <p>也可以像网址那样使用变量</p>
 <p>如果想指定图片宽度、高度，可以使用<img>标签，Markdown不支持</p>
-<p>##Markdown表格</p>
-<p>Markdown表格使用”   |   “来分隔不同的单元格，使用”   -   “来分隔表头和其他行</p>
+<h2 id="Markdown表格"><a href="#Markdown表格" class="headerlink" title="Markdown表格"></a>Markdown表格</h2><p>Markdown表格使用”   |   “来分隔不同的单元格，使用”   -   “来分隔表头和其他行</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|表头|表头|</span><br><span class="line">|----|----|</span><br><span class="line">|单元格|单元格|</span><br></pre></td></tr></table></figure>
 
 <table>
